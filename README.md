@@ -1,27 +1,25 @@
-AfrosPhare
+# AfroSphere
 
-- Keeping track of climate change
--climate change issue, air polution due to black suit.
+Using Port Harcourt as a case study, This app possess feature which  serve to cotribute positively to the climate change issue (such as, air polution due to black suit) in the state.
 
-Soltion: our solution is gotten from the effects of climate change.
-Case Study: Port Harcourt
-features: 
+## Solution
+Our solution is gotten from the effects of climate change.
+
+## Features: 
 - keeping track of climate change. 
 - Areas with climate change. (altered climate change).
 - Statistics of the climate situation in all regions in the city. 
-- Call to action button to request for help to reduce enviromental hazard. 
-  for instance dirty gutters or waste bin spot that brings about polution.
+- Call to action button to request for help to reduce enviromental hazard (For instance, dirty gutters or waste disposal spots that brings about polution)
 
-How can it help?
+## Benefits
+- The application serves as an informative platform to inform the public on the climate situation of city.
+- It prevents users from purchasing houses or start a business in an environment where:
+  - The temperture is hottest.
+  - Prone to flooding.
+  - prone to storms.
+  - Health at risk, e.g gas emmisions.pressures on mental health. disease. etc.
+  - Crops will not grow properly.
+  - livestock can be destroyed.
 
-- You can take it as an informative app to know the current situation of climate in you city.
-- You dont want to rent a house or start a business in an environment where:
- 1. The temperture is hottest.
- 2. Prone to flooding.
- 3. prone to storms.
- 4. Health at risk, e.g gas emmisions.pressures on mental health. disease. etc.
- 5. Crops will not grow properly.
- 6. livestock can be destroyed.
-
-
+ 
 
