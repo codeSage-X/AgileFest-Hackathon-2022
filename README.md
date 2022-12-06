@@ -2,7 +2,7 @@ AfrosPhare
 
 - Keeping track of climate change
 
-port harcourt as a case study 
+Port harcourt as a case study 
 climate change issue, air polution due to black suit.
 
 Soltion: our solution is gotten from the effects of climate change.
@@ -24,4 +24,6 @@ How can it help?
  4. Health at risk, e.g gas emmisions.pressures on mental health. disease. etc.
  5. Crops will not grow properly.
  6. livestock can be destroyed.
+
+ 
 
