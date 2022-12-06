@@ -13,6 +13,7 @@ Our solution is gotten from the effects of climate change.
 
 ## Benefits
 - The application serves as an informative platform to inform the public on the climate situation of city.
+- Show your users the impact of their activities on the climate
 - It prevents users from purchasing houses or start a business in an environment where:
   - The temperture is hottest.
   - Prone to flooding.
@@ -20,6 +21,3 @@ Our solution is gotten from the effects of climate change.
   - Health at risk, e.g gas emmisions.pressures on mental health. disease. etc.
   - Crops will not grow properly.
   - livestock can be destroyed.
-
- 
-
