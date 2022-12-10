@@ -2,8 +2,20 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+//* Interface for env
+// interface Environment {
+//   production: boolean;
+//   projectName: string;
+//   apiUrl? :{
+//     url1: string;
+//     url2: string
+//   }
+
+// }
+
 export const environment = {
-  production: false
+  production: false,
+  apiUrl1: 'https://www.carboninterface.com/api/v1/HVqmZgkHo2ObOFxjiQaQlQ',
 };
 
 /*
