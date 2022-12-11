@@ -1,18 +1,22 @@
-<div>
-    <div>
-        <img src="\assets\imgs\logo.png" alt="afrosphere_logo">
+<nav>
+    <div id="sect1" class="routeLink" routerLink="/home">
+        <div>
+            <img src="\assets\imgs\logo.png" alt="afrosphere_logo" height="30px" width="30px">
+        </div>
         <p>Afrosphere</p>
+        <!-- <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon> -->
+
     </div>
-    <div>
+    <div id="sect2">
         <ul>
-            <li class="nav_tabs">home</li>
-            <li class="nav_tabs">about</li>
-            <li class="nav_tabs">our solution</li>
-            <li class="nav_tabs">contact</li>
+            <li class="nav_tabs routeLink">home</li>
+            <li class="nav_tabs routeLink">about</li>
+            <li class="nav_tabs routeLink">our solution</li>
+            <li class="nav_tabs routeLink">contact</li>
         </ul>
     </div>
-    <div>
+    <div id="sect3">
         <!-- <mat-slide-toggle></mat-slide-toggle> -->
-        <button mat-raised-button class="btn1">Become a contributor</button>
+        <button mat-raised-button class="btn1 normal">Become a contributor</button>
     </div>
-</div>
+</nav>

@@ -1,0 +1,41 @@
+@import url(../shared_styles/allShared.scss);
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: rgb(41, 48, 70);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 50px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  p {
+    margin-left: 5px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    // border: 2px solid white;
+
+    li {
+      // border: 2px solid white;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+      margin: 0 30px;
+    }
+    li:hover {
+      border-bottom: 4px solid gold;
+    }
+  }
+}

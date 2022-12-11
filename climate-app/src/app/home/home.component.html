@@ -1,2 +1,26 @@
-<p>home works!</p>
-<app-nav></app-nav>
+<app-header></app-header>
+<section>
+    <article>
+        <h2>What is afrosphere?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin consectetur netus dui, ultrices ornare
+            <br>
+            lectus ac egestas. Vivamus tellus vestibulum aliquet arcu a duis. Aliquam vel, in molestie morbi eleifend
+            <br>
+            feugiat nunc fringilla in. Amet, sit elementum ut enim neque, adipiscing euismod ac. Molestie eu
+        </p>
+        <em class="read_more_link routeLink">Read more</em>
+    </article>
+
+    <article>
+        <h2>What Our Solution <br> Provides</h2>
+        <div class="solution_list">
+            <ul *ngFor="let solution of solutions">
+                <li>{{solution.icon}}</li>
+                <li>
+                    <h3>{{solution.service}}</h3>
+                </li>
+                <li>{{solution.detail}}</li>
+            </ul>
+        </div>
+    </article>
+</section>

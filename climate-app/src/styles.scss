@@ -1,5 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
-@import url(./app/shared/shared_styles/button_styles.scss);
+@import url(./app/shared/shared_styles/allShared.scss);
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 html,
 body {
