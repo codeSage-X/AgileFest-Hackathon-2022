@@ -23,7 +23,7 @@ section {
       grid-template-rows: repeat(2, 250px);
       gap: 10px;
       justify-content: space-between;
-      ul,
+
       .card {
         border: 2px solid black;
         padding: 0 20px;
@@ -32,7 +32,7 @@ section {
         justify-content: center;
         border-radius: 5%;
       }
-      ul:hover {
+      .card:hover {
         background-color: gold;
       }
     }

@@ -31,6 +31,13 @@ h6 {
   font-weight: bolder;
   line-height: 100%;
 }
+a:link,
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 
 .routeLink:hover {
   cursor: pointer;
