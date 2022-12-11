@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-//
-import { MatButtonToggle } from '@angular/material/button-toggle';
-import { MatButtonToggleGroup } from '@angular/material/button-toggle';
-
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+// Material UI
 import { MatButtonModule } from '@angular/material/button';
-import { MatIcon } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+// Font Awesome
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 //
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +14,7 @@ import { NavComponent } from './shared/nav/nav.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -36,11 +35,12 @@ import { RouterModule } from '@angular/router';
         component: HomeComponent,
       },
     ]),
-    MatSlideToggleModule,
+    MatButtonModule,
+    MatCardModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatButtonModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

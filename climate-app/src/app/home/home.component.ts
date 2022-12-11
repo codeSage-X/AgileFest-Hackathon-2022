@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { MatIcon } from '@angular/material/icon';
-import { solutions } from 'src/assets/mock/Solutions';
-import { ISolutions } from 'src/assets/mock/Solutions';
+// import { solutions } from 'src/assets/mock/Solutions';
+// import { ISolutions } from 'src/assets/mock/Solutions';
+
+// fonts
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -10,9 +13,14 @@ import { ISolutions } from 'src/assets/mock/Solutions';
 export class HomeComponent implements OnInit {
   constructor() {}
 
-  solutions: ISolutions[] = solutions;
+  // solutions: ISolutions = new solutions();
+
+  // ! fix: unable to console log or uses data values
+  // solutionIcon = solutions.icon;
+  // fonts
+  coffee = faCoffee;
 
   ngOnInit(): void {
-    console.log(this.solutions);
+    // console.log(this.solutions.icon);
   }
 }
