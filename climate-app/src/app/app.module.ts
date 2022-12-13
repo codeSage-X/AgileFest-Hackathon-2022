@@ -4,6 +4,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Material UI
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
+
+//
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+
 // Font Awesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 //
@@ -15,7 +21,6 @@ import { ClimateRegionComponent } from './climate-region/climate-region.componen
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { RouterModule } from '@angular/router';
-import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -42,10 +47,13 @@ import { from } from 'rxjs';
     ]),
     MatButtonModule,
     MatCardModule,
+    MatTableModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     FontAwesomeModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
