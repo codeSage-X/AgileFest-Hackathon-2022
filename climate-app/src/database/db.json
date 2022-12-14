@@ -31,6 +31,7 @@
     {
       "id": 1,
       "name": "Nigeria",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -44,6 +45,7 @@
     {
       "id": 2,
       "name": "Algeria",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -58,6 +60,7 @@
       "id": 3,
 
       "name": "South-Africa",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -72,6 +75,7 @@
       "id": 4,
 
       "name": "Israel",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -85,6 +89,7 @@
     {
       "id": 5,
       "name": "Somalia",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -98,6 +103,7 @@
     {
       "id": 6,
       "name": "Kenya",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -111,6 +117,7 @@
     {
       "id": 7,
       "name": "Ghana",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -124,6 +131,7 @@
     {
       "id": 8,
       "name": "Kongo",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -137,18 +145,7 @@
     {
       "id": 9,
       "name": "Cape",
-      "soilFertility": 80,
-      "stormProbability": 40,
-      "floodProbability": 30,
-      "emissionHealth-risk": 40,
-      "environmentHarvard": 90,
-      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
-      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
-      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
-      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
-    },
-    {
-      "name": "Algeria",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -161,7 +158,8 @@
     },
     {
       "id": 10,
-      "name": "South-Africa",
+      "name": "Algeria",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,
@@ -174,7 +172,22 @@
     },
     {
       "id": 11,
+      "name": "South-Africa",
+      "temp": 19,
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 12,
       "name": "Iraq",
+      "temp": 19,
       "soilFertility": 80,
       "stormProbability": 40,
       "floodProbability": 30,

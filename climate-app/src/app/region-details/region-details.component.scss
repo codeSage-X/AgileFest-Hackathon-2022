@@ -1,0 +1,52 @@
+@import url(../shared/shared_styles/allShared.scss);
+$customBlueDark: rgb(7, 35, 173);
+$customBlueLight: rgb(42, 129, 163);
+
+$customGrayDark: rgb(41, 48, 70);
+$customGraylight: rgb(75, 76, 81);
+
+* {
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  background-image: linear-gradient(red 50%, $customGraylight);
+  h1 {
+    font-weight: bolder;
+    font-size: 10vh;
+    line-height: 100%;
+    margin: 10px 0;
+  }
+  .left {
+    // border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background-image: url(/assets/imgs/det_bg_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    // border: 2px solid blacks;
+    border-radius: 0 0 0 40px;
+    .l_top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .l_bottom {
+      // border: 2px solid black;
+      border-radius: 0 30px 0 40px;
+      background-image: linear-gradient(
+        to bottom right,
+        $customBlueDark,
+        $customBlueLight
+      );
+      // background-image: linear-gradient(to bottom right, red, yellow);
+    }
+  }
+}
