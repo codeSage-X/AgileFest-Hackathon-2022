@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": 1234,
+      "name": "Andrew Owen",
+      "age": 26,
+      "eyeColor": "blue"
+    },
+    {
+      "id": 1235,
+      "name": "Susan Que",
+      "age": 45,
+      "eyeColor": "hazel"
+    },
+    {
+      "id": 1236,
+      "name": "John Doe",
+      "age": 53,
+      "eyeColor": "brown"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1232,
+      "name": "John Owen",
+      "age": 53,
+      "eyeColor": "brown"
+    }
+  ],
+  "region": [
+    {
+      "id": 1,
+      "name": "Nigeria",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 2,
+      "name": "Algeria",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 3,
+
+      "name": "South-Africa",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 4,
+
+      "name": "Israel",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 5,
+      "name": "Somalia",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 6,
+      "name": "Kenya",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 7,
+      "name": "Ghana",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 8,
+      "name": "Kongo",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 9,
+      "name": "Cape",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "name": "Algeria",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 10,
+      "name": "South-Africa",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    },
+    {
+      "id": 11,
+      "name": "Iraq",
+      "soilFertility": 80,
+      "stormProbability": 40,
+      "floodProbability": 30,
+      "emissionHealth-risk": 40,
+      "environmentHarvard": 90,
+      "agriculture": "Studies show that increased levels of CO2 will lead to nutrient declines in rice of up to 17%, with increased rainfall variability and higher temperatures likely to also further reduce rice yields. Cassava is relatively well adapted to hot and dry conditions; however, it is susceptible to water logging and production yields could be impacted from heavy rainfall events.",
+      "water": "Fresh water sources are polluted through the disposal of domestic and chemicals wastes",
+      "energy": "Currently, the majority of rural communities remain off the grid, and approximately 60% of the population lack access to electricity. At the current rate of grid expansion, they will largely remain under-served",
+      "health": "Key challenges for the health sector include a weak healthcare system characterized by constrained governance systems, low levels of health care financing and inadequate financial protection for the poor, low levels of research for health and poor community participation and utilization of health services — particularly child and maternal services"
+    }
+  ]
+}

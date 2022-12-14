@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClimateRegionComponent } from './climate-region.component';
+import { RegionDetailsComponent } from './region-details.component';
 
-describe('ClimateRegionComponent', () => {
-  let component: ClimateRegionComponent;
-  let fixture: ComponentFixture<ClimateRegionComponent>;
+describe('RegionDetailsComponent', () => {
+  let component: RegionDetailsComponent;
+  let fixture: ComponentFixture<RegionDetailsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ClimateRegionComponent ]
+      declarations: [ RegionDetailsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ClimateRegionComponent);
+    fixture = TestBed.createComponent(RegionDetailsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

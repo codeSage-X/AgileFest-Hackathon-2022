@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Material UI
@@ -13,14 +14,18 @@ import { ReactiveFormsModule } from '@angular/forms';
 // Font Awesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 //
+import { HttpClientModule } from '@angular/common/http';
+//
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './shared/nav/nav.component';
-import { ClimateRegionComponent } from './climate-region/climate-region.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { RegionComponent } from './region/region.component';
+import { RegionDetailsComponent } from './region-details/region-details.component';
 
 @NgModule({
   declarations: [
@@ -29,22 +34,11 @@ import { RouterModule } from '@angular/router';
     NavComponent,
     HeaderComponent,
     FooterComponent,
+    RegionComponent,
+    RegionDetailsComponent,
   ],
   imports: [
-    RouterModule.forRoot([
-      {
-        path: '',
-        component: HomeComponent,
-      },
-      {
-        path: 'home',
-        component: HomeComponent,
-      },
-      {
-        path: 'region',
-        component: ClimateRegionComponent,
-      },
-    ]),
+    AppRoutingModule,
     MatButtonModule,
     MatCardModule,
     MatTableModule,
@@ -54,6 +48,7 @@ import { RouterModule } from '@angular/router';
     FontAwesomeModule,
     MatFormFieldModule,
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
