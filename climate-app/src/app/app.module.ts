@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
-
+import { MatSidenavModule } from '@angular/material/sidenav';
 //
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -39,6 +39,7 @@ import { RegionDetailsComponent } from './region-details/region-details.componen
   ],
   imports: [
     AppRoutingModule,
+    MatSidenavModule,
     MatButtonModule,
     MatCardModule,
     MatTableModule,

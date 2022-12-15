@@ -6,8 +6,8 @@ footer {
   padding: 40px 60px 20px 60px;
   color: white;
   article {
-    display: grid;
-    grid-template-columns: 90% 10%;
+    // display: grid;
+    // grid-template-columns: 90% 10%;
     .footer_info {
       display: flex;
       justify-content: space-between;
@@ -31,6 +31,20 @@ footer {
     .scroll {
       border: 2px solid honeydew;
       height: fit-content;
+    }
+  }
+}
+@media only screen and (max-width: 735px) {
+  .sect1 {
+    .footer_info {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid white;
+      ul {
+        margin: 20px 0;
+      }
+      // flex-direction: column;
     }
   }
 }
