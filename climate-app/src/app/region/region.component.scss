@@ -1,5 +1,37 @@
-a:link,
-a,
-a:visited {
-  color: black;
+@import url(../shared/shared_styles/allShared.scss);
+
+section {
+  // border: 2px solid red;
+  padding: 20px 40px;
+
+  a:link,
+  a,
+  a:visited {
+    color: black;
+  }
+  .search_comp {
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 0 5px;
+  }
+  .sect2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+    ul {
+      border-radius: 20px;
+      border: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    ul:hover {
+      background-color: gold;
+      border: none;
+    }
+  }
 }

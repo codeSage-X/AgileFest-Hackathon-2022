@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RegionService } from '../service/region.service';
 import { Region, IRegion } from 'src/assets/mock/regionData';
+import { faCloudSun } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-region',
@@ -9,6 +10,7 @@ import { Region, IRegion } from 'src/assets/mock/regionData';
 })
 export class RegionComponent implements OnInit {
   constructor(private regionService: RegionService) {}
+  cloudSun = faCloudSun;
   regions: IRegion[] = [];
 
   ngOnInit(): void {
@@ -18,7 +20,7 @@ export class RegionComponent implements OnInit {
   getRegion() {
     this.regionService
       .getAllRegions()
-      .subscribe((reg) => (this.regions = reg.slice(1, 5)));
+      .subscribe((reg) => (this.regions = reg.slice(1, 9)));
     console.log(this.regions);
   }
 }

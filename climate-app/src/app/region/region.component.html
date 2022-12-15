@@ -1,15 +1,18 @@
 <section>
-    <div>
+    <div class="sect1">
         <h2>Pick A Region</h2>
         <form>
-            <input type="search" placeholder="Find a region">
+            <input class="search_comp" type="search" placeholder="Find a region">
         </form>
     </div>
-    <ul *ngFor="let region of regions">
-        <a routerLink="/detail/{{region.id}}">
-            <li>
-                <p>{{region.name}}</p>
+    <div class="sect2">
+        <ul *ngFor="let region of regions" routerLink="/detail/{{region.id}}" class="routeLink">
+            <li class="region_comp">
+                <fa-icon [icon]="cloudSun"></fa-icon>
+                <p>{{region.name}} climate</p>
+                <p>data</p>
             </li>
-        </a>
-    </ul>
+
+        </ul>
+    </div>
 </section>
