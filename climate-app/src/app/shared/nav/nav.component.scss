@@ -40,14 +40,22 @@ nav {
       transition: all 0.2s;
     }
   }
-  .sidenav {
-  }
+
   .side_nav_list {
     display: flex;
     flex-direction: column;
+    li {
+      margin: 10px 0;
+    }
   }
   .sideNavBtn {
     display: none;
+  }
+  #sect3 {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -59,17 +67,23 @@ nav {
     .btn1 {
       display: none;
     }
-    .sideMenu {
-      display: block;
-    }
     .sideNavBtn {
       display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
-
 .sidenav {
-  // display: block;
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 48, 70);
+  border: 2px solid;
+  width: 300px;
   padding: 20px;
+  color: white;
+  .closeSideNav {
+    background-color: gold;
+  }
 }

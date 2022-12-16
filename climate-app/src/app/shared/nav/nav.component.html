@@ -7,7 +7,7 @@
     </div>
     <div id="sect2">
         <ul>
-            <li class="nav_tabs routeLink">home</li>
+            <li class="nav_tabs routeLink" routerLink="/home">home</li>
             <li class="nav_tabs routeLink">about</li>
             <li class="nav_tabs routeLink" routerLink="/region">our solution</li>
             <li class="nav_tabs routeLink">contact</li>
@@ -17,15 +17,15 @@
         <button mat-raised-button class="btn1 normal">Become a contributor</button>
 
         <div>
-            <button type="button" mat-button (click)="drawer.toggle()">
-                <fa-icon [icon]="menu" class="sideNavBtn"></fa-icon>
+            <button class="sideNavBtn" type="button" mat-button (click)="drawer.toggle()">
+                <fa-icon [icon]="menu"></fa-icon>
             </button>
             <mat-drawer #drawer class="sidenav" mode="side" position="end">
                 <button class="closeSideNav" (click)="drawer.toggle()" mat-raised-button>
                     <fa-icon [icon]="close"></fa-icon>
                 </button>
                 <ul class="side_nav_list">
-                    <li class="nav_tabs routeLink">home</li>
+                    <li class="nav_tabs routeLink" routerLink="/home">home</li>
                     <li class="nav_tabs routeLink">about</li>
                     <li class="nav_tabs routeLink" routerLink="/region">our solution</li>
                     <li class="nav_tabs routeLink">contact</li>
@@ -35,12 +35,6 @@
             <mat-drawer-container class="hidden_container" autosize>
             </mat-drawer-container>
         </div>
-
     </div>
-
-
-
-
-
 
 </nav>

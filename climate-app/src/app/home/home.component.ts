@@ -3,7 +3,12 @@ import { Component, OnInit } from '@angular/core';
 // import { ISolutions } from 'src/assets/mock/Solutions';
 
 // fonts
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneSquare } from '@fortawesome/free-solid-svg-icons';
+import { faCloudSun } from '@fortawesome/free-solid-svg-icons';
+import { faTree } from '@fortawesome/free-solid-svg-icons';
+import { faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faBiohazard } from '@fortawesome/free-solid-svg-icons';
+import { faHouseTsunami } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -12,14 +17,13 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class HomeComponent implements OnInit {
   constructor() {}
-
-  // solutions: ISolutions = new solutions();
-
-  // ! fix: unable to console log or uses data values
-  // solutionIcon = solutions.icon;
   // fonts
-  coffee = faCoffee;
-
+  phone = faPhoneSquare;
+  cloudSun = faCloudSun;
+  tree = faTree;
+  bolt = faBolt;
+  bioHazard = faBiohazard;
+  flood = faHouseTsunami;
   ngOnInit(): void {
     // console.log(this.solutions.icon);
   }

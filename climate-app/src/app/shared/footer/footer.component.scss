@@ -9,7 +9,9 @@ footer {
     // display: grid;
     // grid-template-columns: 90% 10%;
     .footer_info {
-      display: flex;
+      // display: flex;
+      display: grid;
+      grid-template-columns: repeat(3, auto);
       justify-content: space-between;
       ul {
         h3 {
@@ -24,27 +26,18 @@ footer {
       margin-top: 15px;
     }
   }
-  .scroll_up {
-    border: 2px solid honeydew;
-    display: inline-flex;
-    justify-content: center;
-    .scroll {
-      border: 2px solid honeydew;
-      height: fit-content;
-    }
-  }
 }
 @media only screen and (max-width: 735px) {
-  .sect1 {
-    .footer_info {
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid white;
-      ul {
-        margin: 20px 0;
+  footer {
+    article {
+      .footer_info {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: space-between;
+        ul {
+          margin-bottom: 10px;
+        }
       }
-      // flex-direction: column;
     }
   }
 }

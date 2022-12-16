@@ -20,20 +20,31 @@ section {
     .solution_list {
       display: grid;
       grid-template-columns: repeat(3, auto);
-      grid-template-rows: repeat(2, 250px);
       gap: 10px;
-      justify-content: space-between;
-
       .card {
+        height: 250px;
         border: 2px solid black;
         padding: 0 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         border-radius: 5%;
+        div {
+          border-radius: 5px;
+          padding: 3px;
+          width: fit-content;
+          font-size: 30px;
+          color: gold;
+          background-color: black;
+          margin-bottom: 15px;
+        }
       }
       .card:hover {
         background-color: gold;
+        transition: all 0.2s;
+        div {
+          color: white;
+        }
       }
     }
 
@@ -44,6 +55,39 @@ section {
       border: 2px solid #888888;
       h3 {
         text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  section {
+    padding: 20px 50px;
+    article {
+      .solution_list {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 10px;
+      }
+
+      .showcase {
+        height: 300px;
+        margin: 0 0;
+        box-shadow: 1px 1px 1px;
+        border: 2px solid #888888;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  section {
+    padding: 20px 50px;
+    article {
+      .solution_list {
+        display: grid;
+        // display: none;
+        grid-template-columns: 100%;
       }
     }
   }

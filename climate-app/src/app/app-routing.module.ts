@@ -9,7 +9,6 @@ const routes: Routes = [
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',
-    // component: HomeComponent,
   },
   { path: 'home', component: HomeComponent },
   {
