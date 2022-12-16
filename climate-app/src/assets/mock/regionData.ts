@@ -2,6 +2,9 @@ export interface IRegion {
   id: number;
   name: string;
   temp: number;
+  humidity: number;
+  wind: number;
+  pressure: number;
   soilFertility: number;
   stormProbability: number;
   floodProbability: number;
@@ -17,6 +20,9 @@ export class Region implements IRegion {
   id: number = 0;
   name: string = '';
   temp: number = 0;
+  humidity: number = 0;
+  wind: number = 0;
+  pressure: number = 0;
   soilFertility: number = 0;
   stormProbability: number = 0;
   floodProbability: number = 0;

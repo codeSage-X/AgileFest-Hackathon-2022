@@ -1,20 +1,98 @@
 <section>
     <div *ngIf="region">
-        <div class="left">
-            <div class="l_top">
-                <h2>{{region.name}}</h2>
-                <h1>{{region.temp}} c</h1>
-                <p> Mostly sunny </p>
-            </div>
-            <div class="l_bottom">
-                <div class="region_details">
-                    sd
+        <h2 class="intro">Climate Quality in {{region.name | uppercase}}</h2>
+        <article>
+            <div class="left">
+                <div class="left_comp">
+                    <div class="l_top">
+                        <h2>{{region.name}}</h2>
+                        <h1>{{region.temp}}&#8451;</h1>
+                        <p> Mostly sunny </p>
+                    </div>
+                    <div class="l_bottom">
+                        <h3>Average Weather Stats</h3>
+                        <mat-card class="side_comp">
+                            <li>
+                                <p> Tempreture </p>
+                                <b>{{region.temp}}<span>&#8451;</span></b>
+                            </li>
+                            <li>
+                                <p> Humidity </p>
+                                <b>{{region.humidity}}<span>&#37;</span></b>
+                            </li>
+                            <li>
+                                <p>Wind </p>
+                                <b>{{region.wind}} <span>km/h</span></b>
+                            </li>
+                            <li>
+                                <p> Pressure </p>
+                                <b>{{region. pressure}} <span>mbar</span></b>
+                            </li>
+                        </mat-card>
+                        <mat-card class="join side_comp">
+                            <h2>Join the Initiative</h2>
+                            <p><small>Monitor real-time climate data in your city and contribute to informing the
+                                    public</small></p>
+                            <div>
+                                <button mat-raised-button class="btn1 normal black">Start Today</button>
+                            </div>
+                        </mat-card>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="right">
 
-        </div>
+            </div>
+            <div class="right">
+                <div>
+                    <h2><small>Overview</small></h2>
+                    <table>
+                        <tr class="section_list">
+                            <th><a href="" class="section">About</a></th>
+                            <th><a href="" class="section">Causes</a>
+                            </th>
+                            <th><a href="" class="section">Effects</a></th>
+                            <th><a href="#recommendation" class="section">Recommendation</a>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <mat-card id="about_region" class="card">
+                    <h3><small>About {{region.name}}</small></h3>
+                    <p>What are the major climate effects on {{region.name | uppercase}}</p>
+                </mat-card>
+                <mat-card id="causes" class="card">
+                    <h3><small>Causes of Climate change in {{region.name | uppercase}}</small></h3>
+                    <p>What are the major climate effects on {{region.name | uppercase}}</p>
+
+                </mat-card>
+                <mat-card id="effects" class="card">
+                    <h3><small>Effects on the climate</small></h3>
+                    <p>What are the major climate effects on {{region.name | uppercase}}</p>
+                    <ul>
+                        <li class="major_effects_list">{{region.agriculture}}</li>
+                        <li class="major_effects_list">{{region.water}}</li>
+                        <li class="major_effects_list">{{region.energy}}</li>
+                        <li class="major_effects_list">{{region.health}}</li>
+                    </ul>
+
+                    <div>
+                        <b>statistics show that:</b>
+                        <ul class="effects_with_stats">
+                            <li>Soil Fertility rate = {{region.soilFertility}}</li>
+                            <li>Storm probability = {{region.stormProbability}}</li>
+                            <li>Flood probability = {{region.floodProbability}}</li>
+                            <li>Emission Health Risk = {{region.emissionHealthRisk}}</li>
+                            <li>Environment Harvard = {{region.environmentHarvard}}</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </mat-card>
+                <mat-card id="recommendation" class="card">
+                    <h3><small>Recommendation</small></h3>
+                    <p>What are the major climate effects on {{region.name | uppercase}}</p>
+
+                </mat-card>
+            </div>
+        </article>
     </div>
 
 </section>

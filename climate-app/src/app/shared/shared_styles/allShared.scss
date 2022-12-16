@@ -6,6 +6,13 @@
   height: 48px;
   width: 160px;
 }
+.black {
+  color: white;
+  background-color: black;
+}
+.black:hover {
+  background-color: rgb(0, 94, 255);
+}
 .img_comp_2 {
   max-width: 100%;
 }
