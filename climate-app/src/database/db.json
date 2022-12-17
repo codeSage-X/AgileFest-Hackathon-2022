@@ -67,7 +67,7 @@
     {
       "id": 3,
       "name": "South-Africa",
-      "about": "",
+      "about": "South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems. Inland safari destination Kruger National Park is populated by big game. The Western Cape offers beaches, lush winelands around Stellenbosch and Paarl, craggy cliffs at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city of Cape Town, beneath flat-topped Table Mountain.",
       "temp": 19,
       "humidity": 88,
       "wind": 9.3,
@@ -84,10 +84,9 @@
     },
     {
       "id": 4,
-
       "name": "Israel",
+      "about": "Israel, a Middle Eastern country on the Mediterranean Sea, is regarded by Jews, Christians and Muslims as the biblical Holy Land. Its most sacred sites are in Jerusalem. Within its Old City, the Temple Mount complex includes the Dome of the Rock shrine, the historic Western Wall, Al-Aqsa Mosque and the Church of the Holy Sepulchre. Israel's financial hub, Tel Aviv, is known for its Bauhaus architecture and beaches.",
       "temp": 19,
-
       "humidity": 88,
       "wind": 9.3,
       "pressure": 1020,
@@ -104,8 +103,8 @@
     {
       "id": 5,
       "name": "Somalia",
+      "about": "Somalia, officially the Federal Republic of Somalia, is a country in the Horn of Africa. The country is bordered by Ethiopia to the west, Djibouti to the northwest, the Gulf of Aden to the north, the Indian Ocean to the east, and Kenya to the southwest. Somalia has the longest coastline on Africa's mainland.",
       "temp": 19,
-
       "humidity": 88,
       "wind": 9.3,
       "pressure": 1020,
@@ -122,8 +121,8 @@
     {
       "id": 6,
       "name": "Kenya",
+      "about": "Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It's also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania's 5,895m Mt. Kilimanjaro",
       "temp": 19,
-
       "humidity": 88,
       "wind": 9.3,
       "pressure": 1020,
@@ -140,8 +139,8 @@
     {
       "id": 7,
       "name": "Ghana",
+      "about": "Ghana, officially the Republic of Ghana, is a country in West Africa. It abuts the Gulf of Guinea and the Atlantic Ocean to the south, sharing borders with Ivory Coast in the west, Burkina Faso in the north, and Togo in the east.",
       "temp": 19,
-
       "humidity": 88,
       "wind": 9.3,
       "pressure": 1020,
@@ -158,8 +157,8 @@
     {
       "id": 8,
       "name": "Kongo",
+      "about": "The Democratic Republic of the Congo, informally Congo-Kinshasa, DR Congo, the DRC, the DROC, or the Congo, and formerly and also colloquially Zaire, is a country in Central Africa.",
       "temp": 19,
-
       "humidity": 88,
       "wind": 9.3,
       "pressure": 1020,
@@ -175,9 +174,9 @@
     },
     {
       "id": 9,
-      "name": "Cape",
+      "name": "Cape verde",
+      "about": "Cape Verde or Cabo Verde, officially the Republic of Cabo Verde, is an archipelago and island country in the central Atlantic Ocean, consisting of ten volcanic islands with a combined land area of about 4,033 square kilometers",
       "temp": 19,
-
       "humidity": 88,
       "wind": 9.3,
       "pressure": 1020,

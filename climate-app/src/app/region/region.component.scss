@@ -28,11 +28,26 @@ section {
       display: flex;
       align-items: center;
       justify-content: center;
+      .region_comp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .region_weather {
+          font-size: 35px;
+          color: gold;
+        }
+      }
     }
     ul:hover {
       background-color: gold;
       border: 0.5px solid rgba(33, 32, 32, 0.414);
       transition: all 0.2s;
+      .region_comp {
+        .region_weather {
+          color: white;
+        }
+      }
     }
   }
 }
