@@ -49,12 +49,36 @@ section {
     }
 
     .showcase {
-      height: 300px;
-      margin: 0 50px;
+      height: fit-content;
       box-shadow: 1px 1px 1px;
       border: 2px solid #888888;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       h3 {
+        margin: 20px 0;
         text-align: center;
+      }
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 10px;
+        justify-content: space-evenly;
+        .card {
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          div {
+            margin-bottom: 20px;
+            font-size: 40px;
+          }
+        }
+        .card:hover {
+          background-color: gold;
+          transition: all 0.2s;
+        }
       }
     }
   }
@@ -71,10 +95,21 @@ section {
       }
 
       .showcase {
-        height: 300px;
         margin: 0 0;
         box-shadow: 1px 1px 1px;
         border: 2px solid #888888;
+        .steps {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          justify-content: space-evenly;
+          .card {
+            background-color: gold;
+            div {
+              margin-bottom: 20px;
+              font-size: 40px;
+            }
+          }
+        }
       }
     }
   }
@@ -86,8 +121,18 @@ section {
     article {
       .solution_list {
         display: grid;
-        // display: none;
         grid-template-columns: 100%;
+      }
+      .showcase {
+        margin: 0 0;
+        box-shadow: 1px 1px 1px;
+        border: 2px solid #888888;
+        .steps {
+          display: grid;
+          grid-template-columns: repeat(1, auto);
+
+          justify-content: space-evenly;
+        }
       }
     }
   }

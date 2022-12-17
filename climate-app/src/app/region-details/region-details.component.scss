@@ -114,6 +114,12 @@ section {
       }
       .card {
         margin: 20px 0;
+        ul {
+          li {
+            margin-left: 20px;
+            list-style: disc;
+          }
+        }
       }
     }
   }

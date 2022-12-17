@@ -9,6 +9,10 @@ import { faTree } from '@fortawesome/free-solid-svg-icons';
 import { faBolt } from '@fortawesome/free-solid-svg-icons';
 import { faBiohazard } from '@fortawesome/free-solid-svg-icons';
 import { faHouseTsunami } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faEarthAfrica } from '@fortawesome/free-solid-svg-icons';
+// import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +28,11 @@ export class HomeComponent implements OnInit {
   bolt = faBolt;
   bioHazard = faBiohazard;
   flood = faHouseTsunami;
+  earth = faEarthAfrica;
+  database = faDatabase;
+  // phone = faPhone;
+  //
+  upArrow = faArrowUp;
   ngOnInit(): void {
     // console.log(this.solutions.icon);
   }

@@ -64,7 +64,12 @@
                 <mat-card id="causes" class="card">
                     <h3><small>Causes of Climate change in {{region.name | uppercase}}</small></h3>
                     <p>What are the major climate effects on {{region.name | uppercase}}</p>
-
+                    <ul>
+                        <li>Gas emission from vehicles</li>
+                        <li>Air pollution from gas flaring</li>
+                        <li>Improper waste disposal</li>
+                        <li>Oil spillage causing major environmental pollutions</li>
+                    </ul>
                 </mat-card>
                 <mat-card id="effects" class="card">
                     <h3><small>Effects on the climate</small></h3>
@@ -83,15 +88,19 @@
                             <li>Storm probability = {{region.stormProbability}}</li>
                             <li>Flood probability = {{region.floodProbability}}</li>
                             <li>Emission Health Risk = {{region.emissionHealthRisk}}</li>
-                            <li>Environment Harvard = {{region.environmentHarvard}}</li>
+                            <li>Environment Hazard = {{region.environmentHarvard}}</li>
                             <li></li>
                         </ul>
                     </div>
                 </mat-card>
                 <mat-card id="recommendation" class="card">
                     <h3><small>Recommendation</small></h3>
-                    <p>What are the major climate effects on {{region.name | uppercase}}</p>
-
+                    <p>How can you help <b><i>yourself</i></b> and <b><i>{{region.name | uppercase}}</i></b></p>
+                    <ul>
+                        <li>Avoid Improper Waste disposal</li>
+                        <li>Wear a face/gas mask in majorly polluted areas</li>
+                        <li>Limit use of unmaintained vehicle causes gas emissions</li>
+                    </ul>
                 </mat-card>
             </div>
         </article>
