@@ -1,6 +1,7 @@
 export interface IRegion {
   id: number;
   name: string;
+  about: string;
   temp: number;
   humidity: number;
   wind: number;
@@ -19,6 +20,7 @@ export interface IRegion {
 export class Region implements IRegion {
   id: number = 0;
   name: string = '';
+  about: string = '';
   temp: number = 0;
   humidity: number = 0;
   wind: number = 0;

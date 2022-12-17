@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { RegionService } from '../service/region.service';
 import { Region, IRegion } from 'src/assets/mock/regionData';
 import { faCloudSun } from '@fortawesome/free-solid-svg-icons';
+import { Observable, Subject } from 'rxjs';
 
 @Component({
   selector: 'app-region',
@@ -20,7 +21,7 @@ export class RegionComponent implements OnInit {
   getRegion() {
     this.regionService
       .getAllRegions()
-      .subscribe((reg) => (this.regions = reg.slice(1, 9)));
+      .subscribe((reg) => (this.regions = reg.slice(0, 8)));
     console.log(this.regions);
   }
 }

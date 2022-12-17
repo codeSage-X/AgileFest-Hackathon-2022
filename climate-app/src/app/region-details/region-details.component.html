@@ -1,6 +1,9 @@
 <section>
     <div *ngIf="region">
-        <h2 class="intro">Climate Quality in {{region.name | uppercase}}</h2>
+        <div class="intro">
+            <h2 class="">Climate Quality in {{region.name | uppercase}}</h2>
+            <button mat-raised-button (click)="goBack()" class="btn1 normal">back</button>
+        </div>
         <article>
             <div class="left">
                 <div class="left_comp">
@@ -46,18 +49,17 @@
                     <h2><small>Overview</small></h2>
                     <table>
                         <tr class="section_list">
-                            <th><a href="" class="section">About</a></th>
-                            <th><a href="" class="section">Causes</a>
-                            </th>
-                            <th><a href="" class="section">Effects</a></th>
-                            <th><a href="#recommendation" class="section">Recommendation</a>
+                            <th><a class="section">About</a></th>
+                            <th><a class="section">Causes</a></th>
+                            <th><a class="section">Effects</a></th>
+                            <th><a class="section">Recommendation</a>
                             </th>
                         </tr>
                     </table>
                 </div>
                 <mat-card id="about_region" class="card">
                     <h3><small>About {{region.name}}</small></h3>
-                    <p>What are the major climate effects on {{region.name | uppercase}}</p>
+                    <p>{{region.about}}</p>
                 </mat-card>
                 <mat-card id="causes" class="card">
                     <h3><small>Causes of Climate change in {{region.name | uppercase}}</small></h3>

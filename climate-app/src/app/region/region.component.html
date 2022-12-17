@@ -1,10 +1,11 @@
 <section>
-    <div class="sect1">
+    <app-search-comp></app-search-comp>
+    <!-- <div class="sect1">
         <h2>Pick A Region</h2>
         <form>
             <input class="search_comp" type="search" placeholder="Find a region">
         </form>
-    </div>
+    </div> -->
     <div class="sect2">
         <ul *ngFor="let region of regions" routerLink="/detail/{{region.id}}" class="routeLink">
             <li class="region_comp">

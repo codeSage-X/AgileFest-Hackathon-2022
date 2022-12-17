@@ -10,6 +10,12 @@ $customGraylight: rgb(75, 76, 81);
 }
 section {
   background-color: azure;
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
 
   padding: 0 10px;
   a {
@@ -19,9 +25,6 @@ section {
     font-size: 6vh;
     font-weight: bold;
   }
-  .intro {
-    margin-top: 10px;
-  }
   article {
     margin: 20px 0;
     // height: 600px;
@@ -30,7 +33,7 @@ section {
     gap: 0 20px;
     border: 2px solid black;
     .left {
-      height: 100%;
+      height: 100vh;
       .left_comp {
         width: 100%;
         height: 100%;
@@ -103,6 +106,7 @@ section {
 
           .major_effects_list {
             list-style: decimal;
+            margin-bottom: 10px;
           }
         }
         .effects_with_stats {
@@ -112,6 +116,81 @@ section {
       }
       .card {
         margin: 20px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  section {
+    article {
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 100%;
+      gap: 0 20px;
+      .left {
+        height: 70vh;
+        .left_comp {
+          width: 100%;
+          height: 100%;
+          background-image: url(/assets/imgs/det_bg_img.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .l_bottom {
+            height: 70%;
+            padding: 20px;
+            background-image: linear-gradient(
+              to bottom right,
+              $customBlueDark,
+              $customBlueLight
+            );
+            h3 {
+              color: white;
+            }
+            .side_comp {
+              margin-top: 10px;
+              // padding: 10px;
+              border-radius: 10px;
+              border: 2px solid black;
+              li {
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 0;
+                // text-transform: ;
+                border-bottom: 1px dotted black;
+              }
+            }
+            .join {
+              height: 160px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+          }
+        }
+      }
+      .right {
+        width: 100%;
+        position: relative;
+        table {
+          // border: 2px solid red;
+          width: 100%;
+          .section_list {
+            // border: 2px solid red;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+          }
+        }
+        #effects {
+          .effects_with_stats {
+            flex-direction: column;
+          }
+        }
       }
     }
   }

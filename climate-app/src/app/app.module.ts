@@ -26,6 +26,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { RegionComponent } from './region/region.component';
 import { RegionDetailsComponent } from './region-details/region-details.component';
+import { SearchCompComponent } from './search-comp/search-comp.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { RegionDetailsComponent } from './region-details/region-details.componen
     FooterComponent,
     RegionComponent,
     RegionDetailsComponent,
+    SearchCompComponent,
   ],
   imports: [
     AppRoutingModule,

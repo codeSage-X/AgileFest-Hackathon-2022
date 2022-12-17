@@ -1,0 +1,15 @@
+<div class="sect1">
+    <h2>Pick A Region</h2>
+    <form>
+        <input #searchBox (input)="search(searchBox.value)" class="search_comp" type="search"
+            placeholder="Find a region">
+    </form>
+
+    <ul class="search-result">
+        <li *ngFor="let region of region$ | async">
+            <a routerLink="/detail/{{region.id}}">
+                {{region.name}}
+            </a>
+        </li>
+    </ul>
+</div>
