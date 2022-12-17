@@ -1,6 +1,6 @@
 # AfroSphere
 
-Using Port Harcourt as a case study, This app possess feature which  serve to cotribute positively to the climate change issue (such as, air polution due to black suit) in the state.
+This app possess feature which  serve to cotribute positively to the climate change issue (such as, air polution due to black suit) in the state.
 
 ## Solution
 Our solution is gotten from the effects of climate change.
